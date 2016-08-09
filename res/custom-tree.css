@@ -1,0 +1,41 @@
+.icon{
+    width: 15px;
+    height: 15px;
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+custom-tree ul{
+    padding-left:20px;
+    width: 250px;
+}
+custom-tree ul li{
+    list-style: none;
+    line-height: 20px;
+    cursor: pointer;
+}
+custom-tree ul li a:hover{
+    background: #e0f0f7;
+    border-radius: 2px;
+    box-shadow: inset 0 0 1px #999;
+}
+custom-tree ul li span{
+    display:inline-block!important;
+}
+.custom-tree-clicked {
+    background: #beebff;
+    border-radius: 2px;
+    box-shadow: inset 0 0 1px #999;
+}
+.icon-collapse-hidden{
+    display: none;
+}
+.icon-collapse{
+    display: block;
+}
+.icon-expand-hidden{
+    display: none;
+}
+.icon-expand{
+    display: block;
+}
